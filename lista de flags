@@ -1,0 +1,25 @@
+C (chained - acorrentado com a próxima regra)
+CO (cookie, set um cookie específico)
+E (var:value)
+F (forbidden - 403 header)
+G (gone - não existe mais)
+H (handler)
+L (last - para de processar as regras)
+Last rule: instrui o servidor para parar de reescrever depois que a diretiva anterior é processada. 
+
+N (next - continua processando as regras)
+NC (case insensitive)
+NE (não escape de caracteres especiais de URL na saída )
+NS (ignore esta regra se o pedido for um sub-pedido )
+P (proxy - i.e., o apache deve pegar o conteúdo remoto especificado na seção de substituição e devolvê-lo )
+PT (pass through - ver ao processar URLs com manipuladores adicionais , e.g., mod_alias)
+R (redirecionamento temporário para novo URL )
+R=301 (redirecionamento permanente para novo URL )
+QSA (anexar string de consulta da solicitação ao URL substituído)
+S=x (skip next x rules)
+T=mime-type (forçar tipo mime específico )
+
+flags são adicionados ao final de uma regra de reescrita para dizer ao Apache como interpretar e lidar com a regra.
+Eles podem ser usados para dizer ao apache para tratar a regra como não diferenciando maiúsculas de minúsculas,
+para interromper o processamento de regras se a atual corresponder, ou uma variedade de outras opções.
+Eles são separados por vírgulas e entre colchetes. 
