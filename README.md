@@ -17,7 +17,7 @@ This repository compiles all the flags for htaccess
 <p align="left">
   🦄 Language: <strong> 
   
-  -\_(:/)_/-
+  -\\_(:/)_/-
   
   </strong>
 </p>
